@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library Management Page</title>
+    <link rel="stylesheet" href="lib.css">
+</head>
+
+<body>
+    <h1><b>LIBRARY MANAGEMENT SYSTEM</h1>
+    <div id="filter-section">
+        <h2>SEARCH BOOKS</h2>
+        <label for="title">Title:</label>
+        <input type="text" id="title">
+    </br>
+  </br>
+        <label for="author">Author:</label>
+        <input type="text" id="author">
+      </br>
+    </br>
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject">
+      </br>
+    </br>
+        <label for="publish-date">Publish Date:</label>
+        <input type="date" id="publish-date">
+      </br>
+    </br>
+        <button onclick="applyFilters()"> Search </button>
+      </br>
+    </br>
+    </div>
+    <h3>BOOK LIST</h3>
+    <div id="book-list">
+        <table id="books-table">
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Subject</th>
+                <th>Publish Date</th>
+            </tr>
+        </table>
+        <div id="pagination"></div>
+    </div>
+    <script src="lib.js"></script>
+    <p id="count"></p>
+</body>
+</html>

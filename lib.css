@@ -1,0 +1,72 @@
+body {
+  font-family:'Times New Roman', Times, serif;
+  margin: 1px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+
+}
+h2{
+  text-align: center;
+  color: rgb(255, 0, 191);
+  font-size: 50px;
+}
+h3{
+  text-align: center;
+  color: rgb(0, 195, 255);
+  font-size: 40px;
+}
+#filter-section {
+  margin-bottom: 20px;
+  color:white;
+  text-align: center;
+}
+
+#book-list {
+  margin-top: 20px;
+  font-size: large;
+}
+
+#books-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#books-table th, #books-table td {
+  border: 1px solid rgb(20, 204, 0);
+  padding: 8px;
+  border-color: black;
+  border-radius: 20%;
+}
+
+#pagination {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#pagination button {
+  margin: 5px;
+}
+body{
+  background-image: url('lib.avif');
+  background-repeat: no-repeat ;
+  background-attachment:local;
+  background-size:cover;
+}
+th{
+  color: blue;
+  background-color:light green;
+  font-style: italic;
+}
+table{
+  background-color: wheat;
+  color:green;
+}
+#count{
+  color:rgb(248, 23, 15);
+  text-align: center;
+  font-size: 25px;
+}
